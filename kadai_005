@@ -1,0 +1,12 @@
+# 与えられた値
+top_side = 10  # 単位はcm
+bottom_side = 20  # 単位はcm
+height = 5   # 単位はcm
+unit = 'cm2' #単位の定義
+
+# 台形の面積の計算
+area = (top_side + bottom_side) * height / 2
+
+# 結果の出力
+result = str(area) + unit
+print(result)
