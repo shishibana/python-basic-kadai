@@ -1,0 +1,15 @@
+#for文を使った場合
+array = ["水","金","地","火","木","土","天","海","冥"]
+
+for i in range(2):
+    for element in array:
+        print(element)
+
+#while文を使った場合
+array = ["水","金","地","火","木","土","天","海","冥"]
+
+n = 0
+while n < 2:
+    for i in array:
+        print(i)
+    n += 1
