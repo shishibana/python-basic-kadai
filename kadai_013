@@ -1,0 +1,8 @@
+def calculate_total(price, tax_rate=0.10):
+    tax = price * tax_rate
+    total = price + tax
+    return total
+
+item_price = 500
+total_price = calculate_total(item_price)
+print(f"{total_price}円")
