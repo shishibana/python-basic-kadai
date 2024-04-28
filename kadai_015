@@ -1,0 +1,14 @@
+class Human:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    # printinfo メソッドを追加
+    def printinfo(self):
+        print(f"Name: {self.name}, Age: {self.age}")
+
+# インスタンス化する
+human = Human("侍太郎", 36)
+
+# printinfo メソッドを使って情報を出力する
+human.printinfo()
